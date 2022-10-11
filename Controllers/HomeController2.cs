@@ -14,7 +14,7 @@ namespace Dolha_Damaris_Lab1.Controllers
         }
         public IActionResult Index3(string x, int n)
         {
-            return Content("Valoarea lui x este: " + x + ". Valoarea lui n este: " + n + ".");
+            return Content("Valoarea generata pentru x este: " + x + ". Valoarea generata pentru n este: " + n + ".");
         }
     }
 }
